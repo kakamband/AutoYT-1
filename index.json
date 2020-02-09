@@ -1,0 +1,101 @@
+{
+	"templates":
+	[
+		"I $Verb All the $PluralNoun with My $DecoratedNoun in $Game!"
+	],
+	"games":
+	{
+		"Battlewake": 
+		{
+			"name": "Battlewake",
+			"app_type": "game",
+			"concepts":
+			{
+				"pirate": 
+				{
+					"synset": "pirate.n.03",
+					"subjectof": ["kill", "rule"]
+				},
+				"sea": 
+				{
+					"synset": "sea.n.01",
+					"subjectof": ["rule"]
+				},
+				"kraken":
+				{
+					"subjectof": ["unleash"]
+				},
+				"battle":
+				{
+					"synset": "battle.n.01"
+				},
+				"fleet":
+				{
+					"synset": "fleet.n.04",
+					"subjectof": ["destroy", "plunder"]
+				},
+				"ship":
+				{
+					"synset": "ship.n.01",
+					"subjectof": ["destroy", "plunder"]
+				},
+				"treasure":
+				{
+					"synset": "treasure.n.01",
+					"subjectof": ["steal", "plunder"]
+				},
+				"tornado":
+				{
+					"synset": "tornado.n.01",
+					"subjectof": ["unleash"]
+				},
+				"tsunami":
+				{
+					"synset": "tsunami.n.01",
+					"subjectof": ["unleash"]
+				},
+				
+				"destroy":
+				{
+					"synset": "demolish.v.03"
+				},
+				"kill":
+				{
+					"synset": "kill.v.01"
+				},
+				"steal":
+				{
+					"synset": "steal.v.01"
+				},
+				"plunder":
+				{
+					"synsets": ["plunder.v.03", "sack.v.01"]
+				},
+				"rule":
+				{
+					"synsets": ["govern.v.03", "predominate.v.01"]
+				},
+				"unleash":
+				{
+					"synset": "unleash.v.03"
+				}
+			},
+			"hype": 
+			[
+				"new",
+				"best",
+				"ultimate",
+				"awesome",
+				"crazy",
+				"intense",
+				"incredible"
+			],
+			"marketing": 
+			[
+				"Closed Beta",
+				"VR-ARR",
+				"Virtual Reality"
+			]
+		}
+	}
+}
